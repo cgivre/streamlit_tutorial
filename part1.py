@@ -3,7 +3,6 @@ import streamlit as st
 from user_agents import parse
 
 
-
 def get_browser(raw_user_agent: str) -> str:
     """
     Gets the browser name from a user agent string
